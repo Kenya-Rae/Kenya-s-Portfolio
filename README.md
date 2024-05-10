@@ -111,6 +111,7 @@ The wireframe was created using [Balsamiq](https://balsamiq.com/).
 ### Bugs
 
 - When viewing on a mobile device with 320 x 480 resolution, text boxes overlapped and dragged down the page. I made a change to the max height of the body and made changes to each indivdual component and adjusted accordingly to resolutions.
+-
 
 ## Deployments
 
@@ -135,3 +136,4 @@ Basic code for fade in transition and modified to what I wanted.[hubspot](https:
 - [Ant2210 Raw README.md](https://raw.githubusercontent.com/Ant2210/project1/main/README.md) used to prompt ideas and thought for my own README.md.
 - ANa Robe
 - [Developer.Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) was used when researching about making media query.
+- [IoanZahria] (https://code-institute-room.slack.com/archives/CP07TN38Q/p1715337626643139?thread_ts=1715335321.886689&cid=CP07TN38Q). Helping me resolve the issue with my file sizes as this was causing a gitpush error.
