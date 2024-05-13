@@ -101,6 +101,11 @@ The overall feel of this site is to be professional. The design choices below we
 ### Wireframes
 
 The wireframe was created using [Balsamiq](https://balsamiq.com/).
+The wireframe for the Home page can be found with this link - [Home](assets/images/Home%20Page.png)
+The wireframe for the About Me page can be found with this link - [About](assets/images/About.png)
+The wireframe for the CV page can be found with this link - [CV](assets/images/CV.png)
+The wireframe for the Portfolio page can be found with this link - [Portfolio](assets/images/Portfolio.png)
+The wireframe for the Viewport examples can be found with this link - [Media](assets/images/Media.png)
 
 ## Features
 
@@ -111,7 +116,7 @@ The wireframe was created using [Balsamiq](https://balsamiq.com/).
 ### Bugs
 
 - When viewing on a mobile device with 320 x 480 resolution, text boxes overlapped and dragged down the page. I made a change to the max height of the body and made changes to each indivdual component and adjusted accordingly to resolutions.
--
+- Fatal error when pushing my commits to my repository. Due to file sizing, I had to resize/compress my files in to smaller files to fit the capcity of GitHub.
 
 ## Deployments
 
@@ -122,7 +127,7 @@ The wireframe was created using [Balsamiq](https://balsamiq.com/).
 ### Content
 Icons from [Font Awesome](https://fontawesome.com/)
 Font sourced from [Google Fonts](https://fonts.google.com/)
-
+Accordion template from [Bootstrap](https://getbootstrap.com/docs/4.1/components/collapse/)
 ### Media
 
 All media sourced and provided where all uploaded from my personal device, using the media I have captured and created.
@@ -136,4 +141,7 @@ Basic code for fade in transition and modified to what I wanted.[hubspot](https:
 - [Ant2210 Raw README.md](https://raw.githubusercontent.com/Ant2210/project1/main/README.md) used to prompt ideas and thought for my own README.md.
 - ANa Robe
 - [Developer.Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) was used when researching about making media query.
+- [Display Bootstrap](https://getbootstrap.com/docs/5.3/utilities/display/) was used to research how to hide properties used from Bootstrap.
+- [.w3schools] (https://www.w3schools.com/css/css3_box-sizing.asp#:~:text=With%20the%20CSS%20box%2Dsizing,Hooray!) was used to get an understand of what the box-sizing property does.
+- [Kevin Powell] (https://www.youtube.com/watch?v=6Nv0weHy7t0) helped me find ways to tackle overflow of text.
 - [IoanZahria] (https://code-institute-room.slack.com/archives/CP07TN38Q/p1715337626643139?thread_ts=1715335321.886689&cid=CP07TN38Q). Helping me resolve the issue with my file sizes as this was causing a gitpush error.
