@@ -1,9 +1,5 @@
 /*--------------------------------------------Colors*/
-header {
-    background-color: #F4F7F5;
-}
-
-footer{
+header,footer {
     background-color: #F4F7F5;
 }
 
@@ -28,13 +24,10 @@ p {
     color: #81A4CD;
 }
 /*--------------------------------------------Font, Text*/
-#nav{ 
+#nav, footer{ 
     font-family: "Roboto", "sans serif";
 }
 
-footer{
-    font-family: "Roboto", "sans serif";
-}
 
 .a{
 text-decoration: none;
