@@ -1,134 +1,78 @@
 /*--------------------------------------------Colors*/
-header,footer {
+header,
+footer {
     background-color: #F4F7F5;
 }
 
-.main-page-title, .cv-title, .portfolio-title  {
+.main-page-title,
+.aboutme,
+.cv-title,
+.portfolio-title {
     color: #F4F7F5;
 }
-body { 
+
+body {
     background-color: #08090A;
 }
 
 a {
     color: black;
-    
+
 }
+
 p {
     color: white;
 }
-.center, .hobbies {
+
+.center,
+.hobbies {
     color: #B0BEA9;
 }
+
 .media-title {
     color: #81A4CD;
 }
+
+.list-item,
+.media-paragraphs {
+    color: white;
+}
+
 /*--------------------------------------------Font, Text*/
-#nav, footer{ 
+#nav,
+footer {
     font-family: "Roboto", "sans serif";
 }
 
 
-.a{
-text-decoration: none;
+.a {
+    text-decoration: none;
     text-align: center;
     font-weight: normal;
 }
 
-.main-page-title,.aboutme, .cv-title, .center, .portfolio-title, .media.title  {
-    font-family: "Cormorant Garamond", "sans serif" ;
-}
-
-.fade-in-text {
-    font-family: "Cormorant Garamond","sans-serif";
-    animation: fadeIn 6s;
-}
-
-@keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-}
-
-/*-----------------------------------------------------------------------------------------------------Viewports */
-/*Extra large devices (large desktops, 1200px and up) */
-@media (min-width:1200px) {  }
-
-/*Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {  }
-
-/* --------------------------------------------Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) { 
-    /*--------------------------------------------Colour*/   
-.card-header{
-    background-color: #575A5E;
-    
- }
- .btn {
-     --bs-card-bg: #F4F7F5;
-     color: white;
-     text-decoration: none;
- }
- 
- .mb-0 {
-     text-decoration: none;
-     color: white;
- }
- 
- .aboutme {
-     color: white;
-     text-decoration: underline;
- }
-
- .list-item {
-    color:white;
- }
-
- 
-/*--------------------------------------------Navigation Bar*/
-header{ 
-    background-color: #F4F7F5;
+.main-page-title,
+.aboutme,
+.cv-title,
+.center,
+.portfolio-title,
+.media.title {
+    font-family: "Cormorant Garamond", "sans serif";
     text-align: center;
 }
-#nav {
-    font-size: 17px;
-    font-weight: 600;
-    height: 35px;
-}
-/*--------------------------------------------Footer*/
-footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 10%;
-    margin-right: 0;   
-    max-height: 25px;
-    font-weight: 700;
-}
 
-#socials {
-    position: relative;
-    text-align: center;
-}
-.fa-brands {
-    font-size: 15px;
-    padding: 4px;
-    
-}
-/*-----------------------------------Head Titles and Sub Headings*/
 .main-page-title {
-        text-align: center;
-        position: absolute;
-        width: 100%;
-        top: 50%;
-        font-size: -webkit-xxx-large;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    font-size: -webkit-xxx-large;
 
 }
 
 .aboutme {
     text-align: center;
     text-decoration: underline;
-    font-weight:bolder;
+    font-weight: bolder;
     margin: 0;
 }
 
@@ -136,21 +80,11 @@ footer{
     text-align: center;
     text-decoration: underline;
     font-size: xxx-large;
-    }
+}
 
-.center{
+.center {
     text-decoration: underline;
     font-size: 40px;
-    font-weight: 400;
-    text-align: center;
-}
-
-.sub-title-cv {
-    padding-right: 17px;
-}
-
-.place-of-study{
-    font-size: 17px;
 }
 
 .portfolio-title {
@@ -159,235 +93,135 @@ footer{
     font-size: xx-large;
 }
 
-.hobbies{
-    text-decoration: none;
-    text-align: center;
-    font-weight: normal;
+.fade-in-text {
+    font-family: "Cormorant Garamond", "sans-serif";
+    animation: fadeIn 6s;
 }
-/*-----------------------------------Paragraphs of Text*/
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
 
 .media-paragraphs {
-    font-size: large;
-    color: white;
     text-align: center;
 }
-/*-----------------------------------Content*/
-.accordion {
-    display: none;
+
+.dates {
+    font-weight: bolder;
+    color: #dbc4a9;
 }
 
-.carousel-inner {
-    position: sticky;
-    width: 100%;
-}
- .education-section, .key-skills, .work-history {
+/*--------------------------------------------Content*/
+
+.education-section,
+.key-skills,
+.work-history {
     margin-top: 0;
     margin-bottom: 1rem;
     border-style: dashed;
     border-color: #77BFA3;
 }
-.education-section {
-    list-style: none;
-    padding-left: 25px;
-}
-.dates {
-    font-weight: bolder;
-    color: #dbc4a9;
-}
-.fa-spinner {
-    color: #DBE4EE;
-    font-size: 75px;
+
+/*--------------------------------------------Footer*/
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
-    height: 100%;
+    height: 10%;
+    margin-right: 0;
+    max-height: 25px;
+    font-weight: 700;
+}
+
+#socials {
+    position: relative;
     text-align: center;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
-    background-color: black;
-    border-radius: 8px;
-    width: 30px;
-}
+/*-----------------------------------------------------------------------------------------------------Viewports */
+/*Extra large devices (large desktops, 1200px and up) */
+@media (min-width:1200px) {}
 
-.personal-statement {
-    border-style: solid;
-    border-color: silver;
-    width: 50%;
-    position: relative;
-    top: 18px;
-}
-.web-development-statement {
-    border-style: solid;
-    border-color: silver;
-    float: left;
-    position: absolute;
-    top: 365px;
-    left: 0px;
-    width: 240px;
-    height: 400px;
-    overflow-y: scroll;
-}
+/*Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
 
-.gaming-statement {
-    border-style: solid;
-    border-color: silver;
-    position: absolute;
-    top: 365px;
-    left: 34%;
-    width: 240px;
-    height: 400px;
-    overflow-y: scroll;
-}
+/* --------------------------------------------Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
 
-.gardening-statement {
-    border-style: solid;
-    border-color: silver;
-    float: right;
-    position: absolute;  
-    top: 365px;
-    right: 0px;
-    width: 240px;
-    height: 400px;
-    overflow-y: scroll;
-}
-
-}
-
-/*--------------------------------------------Moblie Small*/ 
-@media (max-width: 576px) {
-    /*--------------------------------------------Colour*/   
-    .card-header{
-        background-color: #575A5E;
-        
-     }
-     .btn {
-         --bs-card-bg: #F4F7F5;
-         color: white;
-         text-decoration: none;
-     }
-     
-     .mb-0 {
-         text-decoration: none;
-         color: white;
-     }
-     
-     .aboutme {
-         color: white;
-         text-decoration: underline;
-     }
-    
-     .list-item {
-        color:white;
-     }
-    
-    
-     
     /*--------------------------------------------Navigation Bar*/
-    header{ 
+    header {
         background-color: #F4F7F5;
         text-align: center;
     }
+
     #nav {
-        font-size: small;
+        font-size: 17px;
         font-weight: 600;
-        height: 28px;
-        text-align: center;
+        height: 35px;
     }
+
     /*--------------------------------------------Footer*/
-    footer{
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        height: 10%;
-        margin-right: 0;   
-        max-height: 25px;
-        font-weight: 700;
-    }
-    
-    #socials {
-        position: relative;
-        text-align: center;
-    }
+
     .fa-brands {
         font-size: 15px;
         padding: 4px;
-        
+
     }
+
     /*-----------------------------------Head Titles and Sub Headings*/
     .main-page-title {
-            text-align: center;
-            position: absolute;
-            width: 100%;
-            top: 50%;
-            font-size: xx-large;
-    
+        font-size: -webkit-xxx-large;
+
     }
-    
-    .aboutme {
-        text-align: center;
-        text-decoration: underline;
-        font-weight:bolder;
-        margin: 0;
-    }
-    .cv-title {
-        text-align: center;
-        text-decoration: underline;
-        font-size: xxx-large;
-        }
-    
-    
-    .center{
-        text-decoration: underline;
-        font-size: 40px;
+
+    .center {
+
         font-weight: 400;
         text-align: center;
     }
-    
+
     .sub-title-cv {
         padding-right: 17px;
     }
-    
-    .place-of-study{
+
+    .place-of-study {
         font-size: 17px;
     }
-    
-    .portfolio-title {
+
+    .hobbies {
+        text-decoration: none;
         text-align: center;
-        text-decoration: underline;
-        font-size: xx-large;
+        font-weight: normal;
     }
-    
-    
+
     /*-----------------------------------Paragraphs of Text*/
-    
+
     .media-paragraphs {
         font-size: large;
-        color: white;
-        text-align: center;
     }
+
     /*-----------------------------------Content*/
-    body {
-        margin-bottom: 100px;
+    .accordion {
+        display: none;
     }
-    
+
     .carousel-inner {
         position: sticky;
         width: 100%;
     }
-     .education-section, .key-skills, .work-history {
-        margin-top: 0;
-        margin-bottom: 1rem;
-        border-style: dashed;
-        border-color: #77BFA3;
-    }
+
     .education-section {
         list-style: none;
         padding-left: 25px;
     }
-    .dates {
-        font-weight: bolder;
-        color: #dbc4a9;
-    }
+
     .fa-spinner {
         color: #DBE4EE;
         font-size: 75px;
@@ -395,146 +229,235 @@ footer{
         height: 100%;
         text-align: center;
     }
-    
-    .carousel-control-prev-icon, .carousel-control-next-icon {
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
         background-color: black;
         border-radius: 8px;
-        width: 30px;}
-    
+        width: 30px;
     }
-/*--------------------------------------------Mobile X-Small*/ 
-@media (max-width: 320px) {
 
- /*--------------------------------------------Colour*/   
-.card-header{
-    background-color: #575A5E;
-    
- }
- .btn {
-     --bs-card-bg: #F4F7F5;
-     color: white;
-     text-decoration: none;
- }
- 
- .mb-0 {
-     text-decoration: none;
-     color: white;
- }
- 
- .aboutme {
-     color: white;
-     text-decoration: underline;
- }
+    .personal-statement {
+        border-style: solid;
+        border-color: silver;
+        width: 50%;
+        position: relative;
+        top: 18px;
+    }
 
- .list-item {
-    color:white;
- }
-
- 
-/*--------------------------------------------Navigation Bar*/
-#nav {
-    font-size: 12px;
-    font-weight: 600;
-    height: 28px;
-}
-/*--------------------------------------------Footer*/
-footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 10%;
-    margin-right: 0;   
-    max-height: 25px;
-    font-weight: 700;
-}
-
-#socials {
-    font-size: smaller;
-}
-.fa-brands {
-    font-size: 15px;
-    padding: 4px;
-    
-}
-/*-----------------------------------Head Titles and Sub Headings*/
-.main-page-title {
-        text-align: center;
+    .web-development-statement {
+        border-style: solid;
+        border-color: silver;
+        float: left;
         position: absolute;
-        width: 100%;
-        top: 50%;
+        top: 365px;
+        left: 0px;
+        width: 240px;
+        height: 400px;
+        overflow-y: scroll;
+    }
+
+    .gaming-statement {
+        border-style: solid;
+        border-color: silver;
+        position: absolute;
+        top: 365px;
+        left: 34%;
+        width: 240px;
+        height: 400px;
+        overflow-y: scroll;
+    }
+
+    .gardening-statement {
+        border-style: solid;
+        border-color: silver;
+        float: right;
+        position: absolute;
+        top: 365px;
+        right: 0px;
+        width: 240px;
+        height: 400px;
+        overflow-y: scroll;
+    }
+
+}
+
+/*--------------------------------------------Moblie Small*/
+@media (max-width: 576px) {
+
+    /*--------------------------------------------Colour*/
+    .card-header {
+        background-color: #575A5E;
+
+    }
+
+    .btn {
+        --bs-card-bg: #F4F7F5;
+        color: white;
+        text-decoration: none;
+    }
+
+    .mb-0 {
+        text-decoration: none;
+        color: white;
+    }
+
+    /*--------------------------------------------Navigation Bar*/
+    #nav {
+        font-size: small;
+        font-weight: 600;
+        height: 28px;
+        text-align: center;
+    }
+
+    /*--------------------------------------------Footer*/
+
+    .fa-brands {
+        font-size: 15px;
+        padding: 4px;
+
+    }
+
+    /*-----------------------------------Head Titles and Sub Headings*/
+    .main-page-title {
         font-size: xx-large;
 
+    }
+
+    .cv-title {
+        text-align: center;
+        text-decoration: underline;
+        font-size: xxx-large;
+    }
+
+
+    .center {
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .sub-title-cv {
+        padding-right: 17px;
+    }
+
+    .place-of-study {
+        font-size: 17px;
+    }
+
+    /*-----------------------------------Paragraphs of Text*/
+
+    .media-paragraphs {
+        font-size: large;
+    }
+
+    /*-----------------------------------Content*/
+    body {
+        margin-bottom: 100px;
+    }
+
+    .carousel-inner {
+        position: sticky;
+        width: 100%;
+    }
+
+    .education-section {
+        list-style: none;
+        padding-left: 25px;
+    }
+
+    .fa-spinner {
+        color: #DBE4EE;
+        font-size: 75px;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-color: black;
+        border-radius: 8px;
+        width: 30px;
+    }
+
 }
 
-.aboutme {
-    text-align: center;
-    text-decoration: underline;
-    font-weight:bolder;
-    margin: 0;
-}
-.cv-title {
-    text-align: center;
-    text-decoration: underline;
-    font-size: xxx-large;
-}
+/*--------------------------------------------Mobile X-Small*/
+@media (max-width: 320px) {
 
-.center{
-    text-decoration: underline;
-    font-size: xx-large;
-    font-weight: 800;
-}
+    /*--------------------------------------------Colour*/
+    .card-header {
+        background-color: #575A5E;
 
-.place-of-study{
-    font-size: medium;
-}
+    }
 
-.portfolio-title {
-    text-align: center;
-    text-decoration: underline;
-    font-size: xx-large;
-}
+    .btn {
+        --bs-card-bg: #F4F7F5;
+        color: white;
+        text-decoration: none;
+    }
 
-/*-----------------------------------Paragraphs of Text*/
-.list-item {
-    font-size: small;
-}
+    .mb-0 {
+        text-decoration: none;
+        color: white;
+    }
 
-.media-paragraphs {
-    color: white;
-    text-align: center;
-}
-/*-----------------------------------Content*/
-body {
-    margin-bottom: 100px;
-}
+    /*--------------------------------------------Navigation Bar*/
+    #nav {
+        font-size: 12px;
+        font-weight: 600;
+        height: 28px;
+    }
 
-.carousel-inner {
-    position: sticky;
-    width: 100%;
-}
- .education-section, .key-skills, .work-history {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    border-style: dashed;
-    border-color: #77BFA3;
-}
-.fa-spinner {
-    color: #DBE4EE;
-    font-size: 75px;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-}
+    /*--------------------------------------------Footer*/
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
-    background-color: black;
-    border-radius: 8px;
-    width: 30px;}
+    #socials {
+        font-size: smaller;
+    }
 
-.dates {
-        font-weight: bolder;
-        color: #dbc4a9;
+    .fa-brands {
+        font-size: 15px;
+        padding: 4px;
+
+    }
+
+    /*-----------------------------------Head Titles and Sub Headings*/
+    .main-page-title {
+        font-size: xx-large;
+
+    }
+
+    .center {
+        text-decoration: underline;
+        font-size: xx-large;
+        font-weight: 800;
+    }
+
+    .place-of-study {
+        font-size: medium;
+    }
+
+
+    /*-----------------------------------Content*/
+    .list-item {
+        font-size: small;
+    }
+
+    body {
+        margin-bottom: 100px;
+    }
+
+    .carousel-inner {
+        position: sticky;
+        width: 100%;
+    }
+
+    .fa-spinner {
+        color: #DBE4EE;
+        font-size: 75px;
+        width: 100%;
+        height: 100%;
+        text-align: center;
     }
 
 }

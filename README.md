@@ -133,9 +133,8 @@ The overall feel of this site is to be professional. The design choices below we
 All media sourced and provided where all uploaded from my personal device, using the media I have captured and created.
 
 ### Code
-Code for the footer positioning sourced from [nehalahmadkhan](https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14 
-)
-Basic code for fade in transition and modified to what I wanted.[hubspot](https://blog.hubspot.com/website/css-fade-in#text-transition)
+- Code for the footer positioning sourced from [nehalahmadkhan](https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14)
+- Basic code for fade in transition and modified to what I wanted.[hubspot](https://blog.hubspot.com/website/css-fade-in#text-transition)
 ### Acknowledgments
 
 - [Ant2210 Raw README.md](https://raw.githubusercontent.com/Ant2210/project1/main/README.md) used to prompt ideas and thought for my own README.md.
