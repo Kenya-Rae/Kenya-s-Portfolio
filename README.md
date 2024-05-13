@@ -80,7 +80,7 @@ The overall feel of this site is to be professional. The design choices below we
 
 ### Colours
 
-- Primary colours of  
+- I used a dark background to light navagation/footer, as the contrast and the feel of the page looks more formal. I chose to use light text and colorful elements to brighten pages up through out the website to ensure the website doesn't look flat all the way through. 
 
 ### Styling
 
@@ -100,12 +100,12 @@ The overall feel of this site is to be professional. The design choices below we
 
 ### Wireframes
 
-The wireframe was created using [Balsamiq](https://balsamiq.com/).
-The wireframe for the Home page can be found with this link - [Home](assets/images/Home%20Page.png)
-The wireframe for the About Me page can be found with this link - [About](assets/images/About.png)
-The wireframe for the CV page can be found with this link - [CV](assets/images/CV.png)
-The wireframe for the Portfolio page can be found with this link - [Portfolio](assets/images/Portfolio.png)
-The wireframe for the Viewport examples can be found with this link - [Media](assets/images/Media.png)
+-The wireframe was created using [Balsamiq](https://balsamiq.com/).
+-The wireframe for the Home page can be found with this link - [Home](assets/images/Home%20Page.png)
+-The wireframe for the About Me page can be found with this link - [About](assets/images/About.png)
+-The wireframe for the CV page can be found with this link - [CV](assets/images/CV.png)
+-The wireframe for the Portfolio page can be found with this link - [Portfolio](assets/images/Portfolio.png)
+-The wireframe for the Viewport examples can be found with this link - [Media](assets/images/Media.png)
 
 ## Features
 
@@ -125,9 +125,9 @@ The wireframe for the Viewport examples can be found with this link - [Media](as
 ## Credits
 
 ### Content
-Icons from [Font Awesome](https://fontawesome.com/)
-Font sourced from [Google Fonts](https://fonts.google.com/)
-Accordion template from [Bootstrap](https://getbootstrap.com/docs/4.1/components/collapse/)
+-Icons from [Font Awesome](https://fontawesome.com/)
+-Font sourced from [Google Fonts](https://fonts.google.com/)
+-Accordion template from [Bootstrap](https://getbootstrap.com/docs/4.1/components/collapse/)
 ### Media
 
 All media sourced and provided where all uploaded from my personal device, using the media I have captured and created.
