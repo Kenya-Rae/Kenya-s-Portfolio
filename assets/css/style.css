@@ -4,6 +4,7 @@ footer {
     background-color: #F4F7F5;
 }
 
+
 .main-page-title,
 .aboutme,
 .cv-title,
@@ -39,9 +40,14 @@ p {
 }
 
 /*--------------------------------------------Font, Text*/
-#nav,
+header,
 footer {
     font-family: "Roboto", "sans serif";
+    text-align: center;
+}
+
+#nav {
+    font-weight: 600;
 }
 
 
@@ -128,6 +134,9 @@ footer {
     border-color: #77BFA3;
 }
 
+.last-place-of-study {
+    margin-bottom: 15px;
+}
 /*--------------------------------------------Footer*/
 footer {
     position: fixed;
@@ -147,23 +156,187 @@ footer {
 
 /*-----------------------------------------------------------------------------------------------------Viewports */
 /*Extra large devices (large desktops, 1200px and up) */
-@media (min-width:1200px) {}
+@media (min-width:1200px) {
+    /*-----------------------------------Head Titles and Sub Headings*/
+    .main-page-title {
+        font-size: -webkit-xxx-large;
+    }
+
+    .center {
+
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .sub-title-cv {
+        padding-right: 17px;
+    }
+
+    .place-of-study {
+        font-size: 17px;
+    }
+
+    .hobbies {
+        text-decoration: none;
+        text-align: center;
+        font-weight: normal;
+    }
+
+    /*-----------------------------------Paragraphs of Text*/
+
+    .media-paragraphs {
+        font-size: large;
+    }
+
+    /*-----------------------------------Content*/
+   .accordion {
+        display: none;
+    }
+
+    .carousel-inner {
+        position: sticky;
+        width: 100%;
+    }
+
+    .education-section {
+        list-style: none;
+        padding-left: 25px;
+    }
+
+    .fa-spinner {
+        color: #DBE4EE;
+        font-size: 75px;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-color: black;
+        border-radius: 8px;
+        width: 30px;
+    }
+    .gardening-statement p {
+        margin-bottom: 70px;
+    }
+
+    .work-history {
+        margin-bottom: 70px
+    }
+
+  .gardening-media {
+        margin-bottom: 70px;
+    }
+
+    .fortnite {
+        width: 45%;
+        margin-left: 30px;
+    }
+    .warzone{
+        width: 45%;
+        position: absolute;
+        padding-left: 12px;
+    }
+    .forced {
+        width: 460px;
+        margin-inline: auto;
+    }
+    
+}
 
 /*Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    /*-----------------------------------Head Titles and Sub Headings*/
+    .main-page-title {
+        font-size: -webkit-xxx-large;
+    }
+
+    .center {
+
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .sub-title-cv {
+        padding-right: 17px;
+    }
+
+    .place-of-study {
+        font-size: 17px;
+    }
+
+    .hobbies {
+        text-decoration: none;
+        text-align: center;
+        font-weight: normal;
+    }
+
+    /*-----------------------------------Paragraphs of Text*/
+
+    .media-paragraphs {
+        font-size: large;
+    }
+
+    /*-----------------------------------Content*/
+   .accordion {
+        display: none;
+    }
+
+    .carousel-inner {
+        position: sticky;
+        width: 100%;
+    }
+
+    .education-section {
+        list-style: none;
+        padding-left: 25px;
+    }
+
+    .fa-spinner {
+        color: #DBE4EE;
+        font-size: 75px;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-color: black;
+        border-radius: 8px;
+        width: 30px;
+    }
+    .gardening-statement p {
+        margin-bottom: 70px;
+    }
+
+    .work-history {
+        margin-bottom: 70px
+    }
+
+  .gardening-media {
+        margin-bottom: 70px;
+    }
+
+    .fortnite {
+        width: 45%;
+        margin-left: 30px;
+    }
+    .warzone{
+        width: 45%;
+        position: absolute;
+        padding-left: 12px;
+    }
+}
 
 /* --------------------------------------------Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
 
     /*--------------------------------------------Navigation Bar*/
-    header {
-        background-color: #F4F7F5;
-        text-align: center;
-    }
-
+   
     #nav {
         font-size: 17px;
-        font-weight: 600;
         height: 35px;
     }
 
@@ -208,7 +381,7 @@ footer {
     }
 
     /*-----------------------------------Content*/
-    .accordion {
+   .accordion {
         display: none;
     }
 
@@ -236,50 +409,27 @@ footer {
         border-radius: 8px;
         width: 30px;
     }
-
-    .personal-statement {
-        border-style: solid;
-        border-color: silver;
-        width: 50%;
-        position: relative;
-        top: 18px;
+    .gardening-statement p {
+        margin-bottom: 70px;
     }
 
-    .web-development-statement {
-        border-style: solid;
-        border-color: silver;
-        float: left;
+    .work-history {
+        margin-bottom: 70px
+    }
+
+  .gardening-media {
+        margin-bottom: 70px;
+    }
+
+    .fortnite {
+        width: 45%;
+        margin-left: 30px;
+    }
+    .warzone{
+        width: 45%;
         position: absolute;
-        top: 365px;
-        left: 0px;
-        width: 240px;
-        height: 400px;
-        overflow-y: scroll;
+        padding-left: 12px;
     }
-
-    .gaming-statement {
-        border-style: solid;
-        border-color: silver;
-        position: absolute;
-        top: 365px;
-        left: 34%;
-        width: 240px;
-        height: 400px;
-        overflow-y: scroll;
-    }
-
-    .gardening-statement {
-        border-style: solid;
-        border-color: silver;
-        float: right;
-        position: absolute;
-        top: 365px;
-        right: 0px;
-        width: 240px;
-        height: 400px;
-        overflow-y: scroll;
-    }
-
 }
 
 /*--------------------------------------------Moblie Small*/
@@ -305,7 +455,6 @@ footer {
     /*--------------------------------------------Navigation Bar*/
     #nav {
         font-size: small;
-        font-weight: 600;
         height: 28px;
         text-align: center;
     }
@@ -405,7 +554,6 @@ footer {
     /*--------------------------------------------Navigation Bar*/
     #nav {
         font-size: 12px;
-        font-weight: 600;
         height: 28px;
     }
 

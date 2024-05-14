@@ -117,7 +117,7 @@ The overall feel of this site is to be professional. The design choices below we
 
 - When viewing on a mobile device with 320 x 480 resolution, text boxes overlapped and dragged down the page. I made a change to the max height of the body and made changes to each indivdual component and adjusted accordingly to resolutions.
 - Fatal error when pushing my commits to my repository. Due to file sizing, I had to resize/compress my files in to smaller files to fit the capcity of GitHub.
-
+- Carousel images where taking up a lot of space within the larger screen views. As well as this, changing the size made the postioning of the photo allign to the left. Leaving a big amount of space on the right.
 ## Deployments
 
 -
@@ -144,3 +144,5 @@ All media sourced and provided where all uploaded from my personal device, using
 - [.w3schools] (https://www.w3schools.com/css/css3_box-sizing.asp#:~:text=With%20the%20CSS%20box%2Dsizing,Hooray!) was used to get an understand of what the box-sizing property does.
 - [Kevin Powell] (https://www.youtube.com/watch?v=6Nv0weHy7t0) helped me find ways to tackle overflow of text.
 - [IoanZahria] (https://code-institute-room.slack.com/archives/CP07TN38Q/p1715337626643139?thread_ts=1715335321.886689&cid=CP07TN38Q). Helping me resolve the issue with my file sizes as this was causing a gitpush error.
+- [Bootstrapstudio](https://forum.bootstrapstudio.io/t/how-do-you-decrease-carousel-size/5109/2) A forum post that related to a similar issue I was having. A response from Saj pointed me in the right direction on how to override the carousel image size on desktop.
+- [Joshwcomeau](https://www.joshwcomeau.com/css/center-a-div/). Explained center a div using margin auto. This showed me a new property called margin-inline.
