@@ -1,5 +1,5 @@
 <h1 allign="center" id="title"> Kenya-Rae Francis </h1>
-![Image of First Initial Logo.](../Kenya-s-Portfolio//favicon-32x32.png)
+<img src="../Kenya-s-Portfolio/android-chrome-192x192.png" alt="Image of first initial logo">
 
 [Live Project can be viewed here.](https://kenya-rae.github.io/Kenya-s-Portfolio/)
 
