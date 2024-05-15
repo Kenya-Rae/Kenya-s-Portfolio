@@ -1,5 +1,5 @@
 <h1 allign="center" id="title"> Kenya-Rae Francis </h1>
-<img src="/workspace/Kenya-s-Portfolio/favicon-32x32.png" alt="Image of first Initial">
+![Image of First Initial Logo.](../Kenya-s-Portfolio//favicon-32x32.png)
 
 [Live Project can be viewed here.](https://kenya-rae.github.io/Kenya-s-Portfolio/)
 
@@ -159,6 +159,7 @@ The devices and browers used to test;
 - Carousel images where taking up a lot of space within the larger screen views. As well as this, changing the size made the postioning of the photo allign to the left. Leaving a big amount of space on the right. Removing .w-100 from the class element allowed me to size the images according to screen size. Using media-queries. 
 - Footer wasnt staying in postion and content meet with the footer once placed at the bottom. I had used sticky element and some styling to position my footer correctly. I provided some elements with a margin bottom to push up the content away from the footer.
 - Styling for media queries that where 1440px and up, I was unable position my divs horizontally for pages such as the CV page. I had used margin-left to move and position them to where I need. Though this may not be beneficial for xxx-large screens as this may change the postioning on different screens.
+- Not necessarily a bug to an extent. However, when validating code I had some warnings and errors for my CV and portfolio page. [Rocketvalidator](https://rocketvalidator.com/) Was used to understand errors within validators. For example, withing my video syntax the src attribute had a space. [Link to example](https://rocketvalidator.com/html-validation/bad-value-x-for-attribute-width-on-element-video-expected-a-digit-but-saw-percent-instead). In order to remove this I used 20% to overcome this without changing all the file names. With this I was able to make slight changes to my HTML in order to reduce any errors or warnings throughout my code.
 ## Deployments
 This project was deployed to GitHub Pages using the steps below;
 
@@ -206,7 +207,8 @@ All media sourced and provided where all uploaded from my personal device, using
 Thank you to everyone for all the suggestion and advice provided.
 
 - [Code Institute](https://codeinstitute.net/) providing me the chance to learn and put what I have learnt in to practice
--[Martina Terlevic](https://github.com/SephTheOverwitch) For the reassurance and advice through the project.
+- [Martina Terlevic](https://github.com/SephTheOverwitch) For the reassurance and advice through the project.
+- Family and friends who tested my live site and provided feedback. As well as supporting me emotional whilst building my first project!
 - [Ant2210 Raw README.md](https://raw.githubusercontent.com/Ant2210/project1/main/README.md) used to prompt ideas and thought for my own README.md.
 - [Developer.Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) was used when researching about making media query.
 - [Display Bootstrap](https://getbootstrap.com/docs/5.3/utilities/display/) was used to research how to hide properties used from Bootstrap.
@@ -215,6 +217,6 @@ Thank you to everyone for all the suggestion and advice provided.
 - [IoanZahria] (https://code-institute-room.slack.com/archives/CP07TN38Q/p1715337626643139?thread_ts=1715335321.886689&cid=CP07TN38Q). Helping me resolve the issue with my file sizes as this was causing a gitpush error.
 - [Bootstrapstudio](https://forum.bootstrapstudio.io/t/how-do-you-decrease-carousel-size/5109/2) A forum post that related to a similar issue I was having. A response from Saj pointed me in the right direction on how to override the carousel image size on desktop.
 - [Joshwcomeau](https://www.joshwcomeau.com/css/center-a-div/). Explained center a div using margin auto. This showed me a new property called margin-inline.
-- [Rocketvalidator](https://rocketvalidator.com/) Was used to understand errors within validators.
+- [Rocketvalidator](https://rocketvalidator.com/) Was used to understand errors within validators. In particular [Page I read](https://rocketvalidator.com/html-validation/bad-value-x-for-attribute-width-on-element-video-expected-a-digit-but-saw-percent-instead) and [Another page I read](https://rocketvalidator.com/html-validation/bad-value-x-for-attribute-src-on-element-img-illegal-character-in-path-segment-space-is-not-allowed).
 
 [Back to top](#title)
