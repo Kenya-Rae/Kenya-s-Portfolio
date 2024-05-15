@@ -1,5 +1,5 @@
 <h1 allign="center" id="title"> Kenya-Rae Francis </h1>
-<img src="/workspace/Kenya-s-Portfolio/favicon.ico" alt="Image of first Initial">
+<img src="/workspace/Kenya-s-Portfolio/favicon-32x32.png" alt="Image of first Initial">
 
 [Live Project can be viewed here.](https://kenya-rae.github.io/Kenya-s-Portfolio/)
 
