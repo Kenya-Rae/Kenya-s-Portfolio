@@ -173,6 +173,7 @@ This project was deployed to GitHub Pages using the steps below;
 - To optimize images for the web [Tinypng](https://tinypng.com/).
 - Validation of CSS was done by [Jigsaw](https://jigsaw.w3.org/css-validator/).
 - Validation of HTML was done by [Validator](https://validator.w3.org/).
+- CSS Minimiser [Toptal](https://www.toptal.com/developers/cssminifier).
 ### Media
 
 All media sourced and provided where all uploaded from my personal device, using the media I have captured and created.
