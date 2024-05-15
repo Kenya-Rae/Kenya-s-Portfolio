@@ -139,6 +139,7 @@ The devices and browers used to test;
 - Iphone 13 Pro Max
 - Iphone 13
 - Iphone 11
+- Iphone XR
 - Iphone 6
 - Samsung S12
 - Ipad 10th Gen
