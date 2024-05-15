@@ -133,6 +133,24 @@ Links to find the video files that have been added.
 - Used semantic HTML to define meaning of the content.
 
 ## Testing
+Live site has been tested on various devices and browsers and done by myself, friends and family.
+
+The devices and browers used to test;
+- Iphone 13 Pro Max
+- Iphone 13
+- Iphone 11
+- Iphone 6
+- Samsung S12
+- Ipad 10th Gen
+- MacBook
+- Desktop - Opera GX
+- HP Pavillion Gaming Laptop 17
+
+
+- Upon testing, it was reccommend that my personal statement on the cv page was not visible on mobile but bigger devices displayed this. This was due to a bootstrap utility class that I have added to the personal statement paragraph. This has now been removed and postioned correctly for all devices. 
+- Cv PDF was not working correctly with Dev Tools. Though when tested on the live site on different devices, PDF is downloadable and works as it should.
+- When viewing on MacBook, cv page content is not centered well if browser is not full screen.
+- It was noticed that a brightness bar displays immediately within the cv page on the Samsung S12. Two options displayed with "Apply" and "Cancel", this also displays a bar above the CV section. When accepted, this has seemed to dimmed the colour of the writing or increased the boldness.  
 
 ## Bugs
 
@@ -140,7 +158,7 @@ Links to find the video files that have been added.
 - Fatal error when pushing my commits to my repository. Due to file sizing, I had to resize/compress my files in to smaller files to fit the capcity of GitHub.
 - Carousel images where taking up a lot of space within the larger screen views. As well as this, changing the size made the postioning of the photo allign to the left. Leaving a big amount of space on the right. Removing .w-100 from the class element allowed me to size the images according to screen size. Using media-queries. 
 - Footer wasnt staying in postion and content meet with the footer once placed at the bottom. I had used sticky element and some styling to position my footer correctly. I provided some elements with a margin bottom to push up the content away from the footer.
-- Styling for media queries that where 1440px and up, I was unable position my divs horizontally. I had used margin-left to move and position them to where I need. Though this may not be beneficial for xxx-large screens as this may change the postioning on different screens.
+- Styling for media queries that where 1440px and up, I was unable position my divs horizontally for pages such as the CV page. I had used margin-left to move and position them to where I need. Though this may not be beneficial for xxx-large screens as this may change the postioning on different screens.
 ## Deployments
 This project was deployed to GitHub Pages using the steps below;
 

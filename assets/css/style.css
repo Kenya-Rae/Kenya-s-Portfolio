@@ -155,6 +155,8 @@ footer {
 #socials {
     position: relative;
 }
+/*-----------------------------------------------------------------------------------------------------Viewports */
+/*Extra large devices (large desktops, 1200px and up) */
 
 @media (min-width:1920px) {
 
@@ -162,7 +164,7 @@ footer {
     .key-skills,
     .work-history {
         float: left;
-        width: 550px !important;
+        width: 500px !important;
         height: 450px !important;
     }
 
@@ -411,7 +413,7 @@ footer {
         margin-inline: auto;
     }
 }
-
+/*Large devices (desktops, 992px and up) */
 @media (min-width:992px) {
 
     .center,
@@ -491,7 +493,7 @@ footer {
         padding-left: 12px;
     }
 }
-
+/* --------------------------------------------Medium devices (tablets, 768px and up)*/
 @media (min-width:768px) {
 
     .center,
@@ -581,7 +583,7 @@ footer {
         padding-left: 12px;
     }
 }
-
+/*-------------------------------------------- Small devices (Mobile Small 576px and up)*/
 @media (max-width:576px) {
 
     .btn,
@@ -668,7 +670,7 @@ footer {
         width: 30px;
     }
 }
-
+/*-------------------------------------------- X-Small devices (Mobile X-Small 320px and up)*/
 @media (max-width:320px) {
 
     .btn,
