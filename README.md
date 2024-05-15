@@ -1,5 +1,5 @@
 <h1 allign="center" id="title"> Kenya-Rae Francis </h1>
-<img src="../Kenya-s-Portfolio/android-chrome-192x192.png" alt="Image of first initial logo">
+<img src="assets/images/android-chrome-192x192.png" alt="Image of first initial logo">
 
 [Live Project can be viewed here.](https://kenya-rae.github.io/Kenya-s-Portfolio/)
 
@@ -161,6 +161,7 @@ The devices and browers used to test;
 - Footer wasnt staying in postion and content meet with the footer once placed at the bottom. I had used sticky element and some styling to position my footer correctly. I provided some elements with a margin bottom to push up the content away from the footer.
 - Styling for media queries that where 1440px and up, I was unable position my divs horizontally for pages such as the CV page. I had used margin-left to move and position them to where I need. Though this may not be beneficial for xxx-large screens as this may change the postioning on different screens.
 - Not necessarily a bug to an extent. However, when validating code I had some warnings and errors for my CV and portfolio page. [Rocketvalidator](https://rocketvalidator.com/) Was used to understand errors within validators. For example, withing my video syntax the src attribute had a space. [Link to example](https://rocketvalidator.com/html-validation/bad-value-x-for-attribute-width-on-element-video-expected-a-digit-but-saw-percent-instead). In order to remove this I used 20% to overcome this without changing all the file names. With this I was able to make slight changes to my HTML in order to reduce any errors or warnings throughout my code.
+- Uploading a image within the README.MD file, will display in the preview in Gitpod, however when pushed and view on Github. Image appears to be broken. I have copied the images within my images folder under assets.
 ## Deployments
 This project was deployed to GitHub Pages using the steps below;
 
