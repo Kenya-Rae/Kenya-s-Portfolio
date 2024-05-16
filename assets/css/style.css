@@ -1,12 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-/*--------------------------------------------Colors and Font*/
-
-.cv-title,
-.main-page-title {
-    font-size: xxx-large
+/*--------------------------------------------Colours*/
+footer,
+header {
+    background-color: #f4f7f5;
 }
 
+.aboutme,
+.cv-title,
+.main-page-title,
+.portfolio-title {
+    color: #f4f7f5;
+}
+
+body {
+    background-color: #08090a;
+}
+
+a {
+    color: #000;
+}
+
+.list-item,
+.media-paragraphs,
+p {
+    color: #fff;
+}
+
+.center,
+.hobbies {
+    color: #b0bea9;
+}
+
+.media-title {
+    color: #81a4cd;
+}
+
+.fa-spinner {
+    color: #dbe4ee;
+}
+
+.dates {
+    color: #dbc4a9;
+}
+
+/*--------------------------------------------Titles, Text and Font*/
+footer,
+header {
+    font-family: "Roboto", "Arial";
+}
+
+#nav {
+    font-weight: 600;
+}
+
+.a {
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.personal-statement,
 #socials,
 .a,
 .aboutme,
@@ -19,51 +72,11 @@ header {
     text-align: center
 }
 
-footer,
-header {
-    background-color: #f4f7f5;
-    font-family: Roboto, "sans serif"
-}
-
-.aboutme,
 .cv-title,
-.main-page-title,
-.portfolio-title {
-    color: #f4f7f5
+.main-page-title {
+    font-size: xxx-large
 }
 
-body {
-    background-color: #08090a
-}
-
-a {
-    color: #000
-}
-
-.list-item,
-.media-paragraphs,
-p {
-    color: #fff
-}
-
-.center,
-.hobbies {
-    color: #b0bea9;
-}
-
-.media-title {
-    color: #81a4cd;
-}
-
-#nav {
-    font-weight: 600;
-}
-
-.a {
-    text-decoration: none;
-    font-weight: 400;
-}
-/*--------------------------------------------Titles and Tex*/
 .aboutme,
 .center,
 .cv-title,
@@ -86,16 +99,6 @@ p {
     text-align: center;
 }
 
-.main-page-title {
-    position: absolute;
-    width: 100%;
-    top: 50%;
-}
-
-.aboutme {
-    margin: 0;
-}
-
 .center {
     font-size: 40px;
 }
@@ -103,7 +106,8 @@ p {
 .portfolio-title {
     font-size: xx-large;
 }
-/*--------------------------------------------=Fade In*/
+
+/*--------------------------------------------Fade In*/
 .fade-in-text {
     font-family: "Cormorant Garamond", "sans-serif";
     animation: 6s fadeIn;
@@ -119,13 +123,15 @@ p {
     }
 }
 
-.dates {
-    color: #dbc4a9;
+/*--------------------------------------------Borders, Padding, Positioning etc*/
+.main-page-title {
+    position: absolute;
+    width: 100%;
+    top: 50%;
 }
 
-.personal-statement {
-   text-align: center;
-
+.aboutme {
+    margin: 0;
 }
 
 .education-section,
@@ -140,6 +146,7 @@ p {
 .last-place-of-study {
     margin-bottom: 15px;
 }
+
 /*-------------------------------------------Footer*/
 footer {
     position: fixed;
@@ -155,19 +162,13 @@ footer {
 #socials {
     position: relative;
 }
+
 /*-----------------------------------------------------------------------------------------------------Viewports */
 /*Extra large devices (large desktops, 1200px and up) */
 
 @media (min-width:1920px) {
 
-    .education,
-    .key-skills,
-    .work-history {
-        float: left;
-        width: 500px !important;
-        height: 450px !important;
-    }
-
+    /*-------------------------------------------Header and Footer*/
     #nav {
         font-size: x-large !important;
     }
@@ -188,12 +189,7 @@ footer {
         font-size: larger !important;
     }
 
-    .center,
-    .hobbies {
-        font-weight: 400;
-        text-align: center;
-    }
-
+    /*-------------------------------------------Titles and Text*/
     .main-page-title {
         font-size: xxx-large;
     }
@@ -203,30 +199,9 @@ footer {
         font-size: 100px;
     }
 
-    .media-title {
-        font-size: 40px !important;
-    }
-
-    .sub-title-cv {
-        padding-right: 17px;
-    }
-
-    .place-of-study {
-        font-size: 17px;
-    }
-
-    .hobbies {
-        text-decoration: none;
-        font-size: 50px;
-    }
-
     .about-me-sections,
     .personal-statement {
         font-size: 30px;
-    }
-
-    .media-paragraphs {
-        font-size: 30px !important;
     }
 
     .contact-information {
@@ -235,6 +210,34 @@ footer {
 
     .cv-section {
         font-size: x-large;
+    }
+
+    .place-of-study {
+        font-size: 17px;
+    }
+
+    .media-title {
+        font-size: 40px !important;
+    }
+
+    .media-paragraphs {
+        font-size: 30px !important;
+    }
+
+    .center,
+    .hobbies {
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .hobbies {
+        text-decoration: none;
+        font-size: 50px;
+    }
+
+    /*--------------------------------------------Borders, Padding, Positioning etc*/
+    .sub-title-cv {
+        padding-right: 17px;
     }
 
     .education {
@@ -256,21 +259,12 @@ footer {
         overflow: auto !important;
     }
 
-    .accordion {
-        display: none;
-    }
-
-    .carousel-inner {
-        position: sticky;
-        width: 100%;
-    }
-
-    .fa-spinner {
-        color: #dbe4ee;
-        font-size: 75px;
-        width: 100%;
-        height: 100%;
-        text-align: center;
+    .education,
+    .key-skills,
+    .work-history {
+        float: left;
+        width: 500px !important;
+        height: 450px !important;
     }
 
     .carousel-control-next-icon,
@@ -301,15 +295,59 @@ footer {
         width: 460px;
         margin-inline: auto;
     }
+
+    /*-------------------------------------------Page Content*/
+    .accordion {
+        display: none;
+    }
+
+    .carousel-inner {
+        position: sticky;
+        width: 100%;
+    }
+
+    .fa-spinner {
+        font-size: 75px;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
 }
 
 @media (min-width:1440px) {
+
+    /*--------------------------------------------Borders, Padding, Positioning etc*/
     .education {
         margin-left: 150px !important;
     }
 }
 
 @media (min-width:1200px) {
+
+    /*--------------------------------------------Title and Text*/
+    .main-page-title {
+        font-size: xxx-large;
+    }
+
+    .sub-title-cv {
+        padding-right: 17px;
+    }
+
+    .contact-information {
+        font-size: medium;
+    }
+
+    .media-paragraphs {
+        font-size: large;
+    }
+
+    .place-of-study {
+        font-size: 17px;
+    }
+
+    .hobbies {
+        text-decoration: none;
+    }
 
     .center,
     .hobbies {
@@ -323,30 +361,7 @@ footer {
         text-align: center;
     }
 
-    .main-page-title {
-        font-size: xxx-large;
-    }
-
-    .sub-title-cv {
-        padding-right: 17px;
-    }
-
-    .place-of-study {
-        font-size: 17px;
-    }
-
-    .hobbies {
-        text-decoration: none;
-    }
-
-    .media-paragraphs {
-        font-size: large;
-    }
-
-    .contact-information {
-        font-size: medium;
-    }
-
+    /*--------------------------------------------Borders, Padding, Positioning etc*/
     .education,
     .key-skills,
     .work-history {
@@ -363,10 +378,6 @@ footer {
         height: 400px;
     }
 
-    .accordion {
-        display: none;
-    }
-
     .carousel-inner {
         position: sticky;
         width: 100%;
@@ -375,13 +386,6 @@ footer {
     .education-section {
         list-style: none;
         padding-left: 25px;
-    }
-
-    .fa-spinner {
-        color: #dbe4ee;
-        font-size: 75px;
-        width: 100%;
-        height: 100%;
     }
 
     .carousel-control-next-icon,
@@ -412,9 +416,43 @@ footer {
         width: 460px;
         margin-inline: auto;
     }
+
+    /*--------------------------------------------Page Content*/
+    .accordion {
+        display: none;
+    }
+
+    .fa-spinner {
+        font-size: 75px;
+        width: 100%;
+        height: 100%;
+    }
 }
+
 /*Large devices (desktops, 992px and up) */
 @media (min-width:992px) {
+
+    /*--------------------------------------------Title and Text*/
+    .main-page-title {
+        font-size: xxx-large;
+    }
+
+    .sub-title-cv {
+        padding-right: 17px;
+    }
+
+
+    .place-of-study {
+        font-size: 17px;
+    }
+
+    .media-paragraphs {
+        font-size: large;
+    }
+
+    .hobbies {
+        text-decoration: none;
+    }
 
     .center,
     .hobbies {
@@ -428,30 +466,7 @@ footer {
         text-align: center;
     }
 
-    .main-page-title {
-        font-size: xxx-large;
-    }
-
-    .sub-title-cv {
-        padding-right: 17px;
-    }
-
-    .place-of-study {
-        font-size: 17px;
-    }
-
-    .hobbies {
-        text-decoration: none;
-    }
-
-    .media-paragraphs {
-        font-size: large;
-    }
-
-    .accordion {
-        display: none;
-    }
-
+    /*--------------------------------------------Borders, Padding, Positioning etc*/
     .carousel-inner {
         position: sticky;
         width: 100%;
@@ -460,13 +475,6 @@ footer {
     .education-section {
         list-style: none;
         padding-left: 25px;
-    }
-
-    .fa-spinner {
-        color: #dbe4ee;
-        font-size: 75px;
-        width: 100%;
-        height: 100%;
     }
 
     .carousel-control-next-icon,
@@ -492,22 +500,24 @@ footer {
         position: absolute;
         padding-left: 12px;
     }
+
+    /*--------------------------------------------Page Content*/
+    .accordion {
+        display: none;
+    }
+
+
+    .fa-spinner {
+        font-size: 75px;
+        width: 100%;
+        height: 100%;
+    }
 }
+
 /* --------------------------------------------Medium devices (tablets, 768px and up)*/
 @media (min-width:768px) {
 
-    .center,
-    .hobbies {
-        font-weight: 400;
-        text-align: center;
-    }
-
-    .center,
-    .fa-spinner,
-    .hobbies {
-        text-align: center;
-    }
-
+    /*--------------------------------------------Header and Footer*/
     #nav {
         font-size: 17px;
         height: 35px;
@@ -518,6 +528,7 @@ footer {
         padding: 4px;
     }
 
+    /*--------------------------------------------Title and Text*/
     .main-page-title {
         font-size: xxx-large;
     }
@@ -530,33 +541,35 @@ footer {
         font-size: 17px;
     }
 
-    .hobbies {
-        text-decoration: none;
-    }
-
     .media-paragraphs {
         font-size: large;
     }
 
-    .accordion {
-        display: none;
+    .center,
+    .hobbies {
+        font-weight: 400;
+        text-align: center;
     }
 
-    .carousel-inner {
-        position: sticky;
-        width: 100%;
+    .center,
+    .fa-spinner,
+    .hobbies {
+        text-align: center;
     }
 
+    .hobbies {
+        text-decoration: none;
+    }
+
+    /*--------------------------------------------Borders, Padding, Positioning etc*/
     .education-section {
         list-style: none;
         padding-left: 25px;
     }
 
-    .fa-spinner {
-        color: #dbe4ee;
-        font-size: 75px;
+    .carousel-inner {
+        position: sticky;
         width: 100%;
-        height: 100%;
     }
 
     .carousel-control-next-icon,
@@ -582,23 +595,23 @@ footer {
         position: absolute;
         padding-left: 12px;
     }
+
+    /*--------------------------------------------Page Content*/
+    .accordion {
+        display: none;
+    }
+
+    .fa-spinner {
+        font-size: 75px;
+        width: 100%;
+        height: 100%;
+    }
 }
+
 /*-------------------------------------------- Small devices (Mobile Small 576px and up)*/
 @media (max-width:576px) {
 
-    .btn,
-    .mb-0 {
-        text-decoration: none;
-        color: #fff;
-    }
-
-    #nav,
-    .center,
-    .cv-title,
-    .fa-spinner {
-        text-align: center;
-    }
-
+    /*--------------------------------------------Colours*/
     .card-header {
         background-color: #575a5e;
     }
@@ -607,6 +620,13 @@ footer {
         --bs-card-bg: #F4F7F5;
     }
 
+    .btn,
+    .mb-0 {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    /*--------------------------------------------Header and Footer*/
     #nav {
         font-size: small;
         height: 28px;
@@ -617,6 +637,7 @@ footer {
         padding: 4px;
     }
 
+    /*--------------------------------------------Title and Text*/
     .main-page-title {
         font-size: xx-large;
     }
@@ -626,12 +647,15 @@ footer {
         font-size: xxx-large;
     }
 
-    .center {
-        font-weight: 400;
+    #nav,
+    .center,
+    .cv-title,
+    .fa-spinner {
+        text-align: center;
     }
 
-    .sub-title-cv {
-        padding-right: 17px;
+    .center {
+        font-weight: 400;
     }
 
     .place-of-study {
@@ -642,8 +666,13 @@ footer {
         font-size: large;
     }
 
+    /*--------------------------------------------Borders, Padding, Positioning etc*/
     body {
         margin-bottom: 100px;
+    }
+
+    .sub-title-cv {
+        padding-right: 17px;
     }
 
     .carousel-inner {
@@ -657,7 +686,6 @@ footer {
     }
 
     .fa-spinner {
-        color: #dbe4ee;
         font-size: 75px;
         width: 100%;
         height: 100%;
@@ -670,9 +698,11 @@ footer {
         width: 30px;
     }
 }
+
 /*-------------------------------------------- X-Small devices (Mobile X-Small 320px and up)*/
 @media (max-width:320px) {
 
+    /*--------------------------------------------Colours*/
     .btn,
     .mb-0 {
         text-decoration: none;
@@ -687,6 +717,7 @@ footer {
         --bs-card-bg: #F4F7F5;
     }
 
+    /*--------------------------------------------Header and Footer*/
     #nav {
         font-size: 12px;
         height: 28px;
@@ -701,9 +732,15 @@ footer {
         padding: 4px;
     }
 
+    /*--------------------------------------------Title and Text*/
     .center,
     .main-page-title {
         font-size: xx-large;
+    }
+
+    .contact-information,
+    .list-item {
+        font-size: small;
     }
 
     .center {
@@ -715,11 +752,7 @@ footer {
         font-size: medium;
     }
 
-    .contact-information,
-    .list-item {
-        font-size: small;
-    }
-
+    /*--------------------------------------------Borders, Padding, Positioning etc*/
     body {
         margin-bottom: 100px;
     }
@@ -730,7 +763,6 @@ footer {
     }
 
     .fa-spinner {
-        color: #dbe4ee;
         font-size: 75px;
         width: 100%;
         height: 100%;
